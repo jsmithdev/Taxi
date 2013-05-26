@@ -1,0 +1,6 @@
+com.appsforchange.taxi.MainActivity -> com.appsforchange.taxi.MainActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+com.appsforchange.taxi.MainActivity$1 -> com.appsforchange.taxi.a:
+    com.appsforchange.taxi.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick

@@ -1,0 +1,241 @@
+_____________________________________________________________________
++ Program class: com/appsforchange/taxi/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.appsforchange.taxi.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 48):
+  + Integer [2130903040]
+  + Integer [2131165184]
+  + Integer [2131230720]
+  + Class [android/app/Activity]
+  + Class [android/view/MenuInflater]
+  + Class [android/widget/ImageButton]
+  + Class [com/appsforchange/taxi/MainActivity]
+  + Class [com/appsforchange/taxi/a]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+  + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/appsforchange/taxi/MainActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/appsforchange/taxi/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+  + Methodref [com/appsforchange/taxi/MainActivity.setContentView (I)V]
+  + Methodref [com/appsforchange/taxi/a.<init> (Lcom/appsforchange/taxi/MainActivity;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/appsforchange/taxi/MainActivity;)V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getMenuInflater ()Landroid/view/MenuInflater;]
+  + NameAndType [inflate (ILandroid/view/Menu;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Utf8 [()Landroid/view/MenuInflater;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/view/Menu;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/Menu;)Z]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lcom/appsforchange/taxi/MainActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/view/MenuInflater]
+  + Utf8 [android/widget/ImageButton]
+  + Utf8 [com/appsforchange/taxi/MainActivity]
+  + Utf8 [com/appsforchange/taxi/a]
+  + Utf8 [findViewById]
+  + Utf8 [getMenuInflater]
+  + Utf8 [inflate]
+  + Utf8 [onCreate]
+  + Utf8 [onCreateOptionsMenu]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #9
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 34, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #10
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #15
+        + Methodref [com/appsforchange/taxi/MainActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #3
+        + Integer [2131230720]
+      [14] invokevirtual #13
+        + Methodref [com/appsforchange/taxi/MainActivity.findViewById (I)Landroid/view/View;]
+      [17] checkcast #6
+        + Class [android/widget/ImageButton]
+      [20] astore_2 v2
+      [21] aload_2 v2
+      [22] new #8
+        + Class [com/appsforchange/taxi/a]
+      [25] dup
+      [26] aload_0 v0
+      [27] invokespecial #16
+        + Methodref [com/appsforchange/taxi/a.<init> (Lcom/appsforchange/taxi/MainActivity;)V]
+      [30] invokevirtual #12
+        + Methodref [android/widget/ImageButton.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [33] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreateOptionsMenu(Landroid/view/Menu;)Z
+    Access flags: 0x1
+      = public boolean onCreateOptionsMenu(android.view.Menu)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] invokevirtual #14
+        + Methodref [com/appsforchange/taxi/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+      [4] ldc #2
+        + Integer [2131165184]
+      [6] aload_1 v1
+      [7] invokevirtual #11
+        + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+      [10] iconst_1
+      [11] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/appsforchange/taxi/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.appsforchange.taxi.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 43):
+  + Integer [2131034116]
+  + String [android.intent.action.WEB_SEARCH]
+  + String [query]
+  + Class [android/content/Intent]
+  + Class [android/view/View$OnClickListener]
+  + Class [com/appsforchange/taxi/MainActivity]
+  + Class [com/appsforchange/taxi/a]
+  + Class [java/lang/Object]
+  + Fieldref [com/appsforchange/taxi/a.a Lcom/appsforchange/taxi/MainActivity;]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [com/appsforchange/taxi/MainActivity.getString (I)Ljava/lang/String;]
+  + Methodref [com/appsforchange/taxi/MainActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a Lcom/appsforchange/taxi/MainActivity;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/appsforchange/taxi/MainActivity;)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/appsforchange/taxi/MainActivity;]
+  + Utf8 [a]
+  + Utf8 [android.intent.action.WEB_SEARCH]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [com/appsforchange/taxi/MainActivity]
+  + Utf8 [com/appsforchange/taxi/a]
+  + Utf8 [getString]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [putExtra]
+  + Utf8 [query]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a Lcom/appsforchange/taxi/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.appsforchange.taxi.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/appsforchange/taxi/MainActivity;)V
+    Access flags: 0x0
+      = a(com.appsforchange.taxi.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #9
+        + Fieldref [com/appsforchange/taxi/a.a Lcom/appsforchange/taxi/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #14
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 35, locals = 3, stack = 4):
+      [0] new #4
+        + Class [android/content/Intent]
+      [3] dup
+      [4] ldc #2
+        + String [android.intent.action.WEB_SEARCH]
+      [6] invokespecial #10
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+      [9] astore_2 v2
+      [10] aload_2 v2
+      [11] ldc #3
+        + String [query]
+      [13] aload_0 v0
+      [14] getfield #9
+        + Fieldref [com/appsforchange/taxi/a.a Lcom/appsforchange/taxi/MainActivity;]
+      [17] ldc #1
+        + Integer [2131034116]
+      [19] invokevirtual #12
+        + Methodref [com/appsforchange/taxi/MainActivity.getString (I)Ljava/lang/String;]
+      [22] invokevirtual #11
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+      [25] pop
+      [26] aload_0 v0
+      [27] getfield #9
+        + Fieldref [com/appsforchange/taxi/a.a Lcom/appsforchange/taxi/MainActivity;]
+      [30] aload_2 v2
+      [31] invokevirtual #13
+        + Methodref [com/appsforchange/taxi/MainActivity.startActivity (Landroid/content/Intent;)V]
+      [34] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

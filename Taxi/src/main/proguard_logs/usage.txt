@@ -1,0 +1,11 @@
+com.appsforchange.taxi.BuildConfig
+com.appsforchange.taxi.QuickSearch
+com.appsforchange.taxi.R
+com.appsforchange.taxi.R$attr
+com.appsforchange.taxi.R$dimen
+com.appsforchange.taxi.R$drawable
+com.appsforchange.taxi.R$id
+com.appsforchange.taxi.R$layout
+com.appsforchange.taxi.R$menu
+com.appsforchange.taxi.R$string
+com.appsforchange.taxi.R$style

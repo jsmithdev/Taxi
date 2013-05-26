@@ -1,0 +1,24 @@
+com.appsforchange.taxi.MainActivity
+com.appsforchange.taxi.MainActivity: MainActivity()
+com.appsforchange.taxi.R$dimen: int activity_horizontal_margin
+com.appsforchange.taxi.R$dimen: int activity_vertical_margin
+com.appsforchange.taxi.R$drawable: int background
+com.appsforchange.taxi.R$drawable: int ic_launcher
+com.appsforchange.taxi.R$drawable: int taxi_button
+com.appsforchange.taxi.R$drawable: int taxi_button_alt
+com.appsforchange.taxi.R$drawable: int web_hi_res_512
+com.appsforchange.taxi.R$id: int action_settings
+com.appsforchange.taxi.R$id: int imageButton
+com.appsforchange.taxi.R$id: int textView
+com.appsforchange.taxi.R$layout: int activity_main
+com.appsforchange.taxi.R$menu: int main
+com.appsforchange.taxi.R$string: int action_settings
+com.appsforchange.taxi.R$string: int app_name
+com.appsforchange.taxi.R$string: int contentDescription
+com.appsforchange.taxi.R$string: int query
+com.appsforchange.taxi.R$string: int queryResult
+com.appsforchange.taxi.R$string: int taxiText
+com.appsforchange.taxi.R$string: int toast1
+com.appsforchange.taxi.R$string: int toast2
+com.appsforchange.taxi.R$style: int AppBaseTheme
+com.appsforchange.taxi.R$style: int AppTheme

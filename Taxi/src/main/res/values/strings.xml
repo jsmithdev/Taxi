@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Taxi
+    </string>
+    <string name="action_settings">Settings
+    </string>
+    <string name="contentDescription">Call Taxi
+    </string>
+    <string name="taxiText">Hail a Taxi:
+    </string>
+    <string name="query">call taxi
+    </string>
+    <string name="queryResult">
+    </string>
+    <string name="toast1">Looking for Taxi…
+    </string>
+    <string name="toast2">Hailing Taxi…
+    </string>
+
+</resources>
