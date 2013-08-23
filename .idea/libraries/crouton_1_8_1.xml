@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="gradle-wrapper">
+  <library name="crouton-1.8.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libs/crouton-1.8.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

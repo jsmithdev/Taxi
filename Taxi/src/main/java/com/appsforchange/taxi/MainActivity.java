@@ -17,8 +17,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+
+import de.keyboardsurfer.android.widget.crouton.Crouton;
+import de.keyboardsurfer.android.widget.crouton.Style;
 //import android.content.DialogInterface;
-//import android.widget.Toast;
 //import android.view.WindowManager;
 //import android.view.Window;
 
@@ -72,13 +74,12 @@ public class MainActivity extends Activity {
     }
 
     private void showSettings() {
-        //TODO:Setup any needed 'settings' or remove option & layout
+        Crouton.makeText(this, R.string.settingText, Style.INFO).show();
     }
 
-    private void showAbout() {
-        //TODO:Setup 'about' crouton or toast
+    public void showAbout() {
+        Crouton.makeText(this, R.string.aboutText, Style.INFO).show();
     }
-
 }
 
 //setContentView(R.layout.activity_main);

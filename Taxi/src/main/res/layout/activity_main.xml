@@ -10,25 +10,25 @@
                 android:background="@drawable/background">
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:src="@drawable/taxi_button"
-        android:contentDescription="@string/contentDescription"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:src="@drawable/taxi_button"
+            android:contentDescription="@string/contentDescription"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/taxiText"
-        android:id="@+id/textView"
-        android:singleLine="true"
-        android:autoText="false"
-        android:textColor="#33b5e5"
-        android:textStyle="bold|italic"
-        android:layout_above="@+id/imageButton"
-        android:layout_centerHorizontal="true"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/callTaxiText"
+            android:id="@+id/textView"
+            android:singleLine="true"
+            android:autoText="false"
+            android:textColor="#33b5e5"
+            android:textStyle="bold|italic"
+            android:layout_above="@+id/imageButton"
+            android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
