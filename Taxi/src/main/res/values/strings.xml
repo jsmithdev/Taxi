@@ -15,7 +15,8 @@
     </string>
     <string name="toast1">Looking for Taxi…
     </string>
-    <string name="toast2">Hailing Taxi…
-    </string>
+    <string name="toast2">Hailing Taxi…</string>
+
+    <string name="action_about">About</string>
 
 </resources>

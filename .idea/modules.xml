@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Taxi.iml" filepath="$PROJECT_DIR$/Taxi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Taxi-Taxi.iml" filepath="$PROJECT_DIR$/Taxi-Taxi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Taxi/build/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/Taxi/build/source/buildConfig/buildConfig.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Taxi/build/manifests/debug/debug.iml" filepath="$PROJECT_DIR$/Taxi/build/manifests/debug/debug.iml" />
       <module fileurl="file://$PROJECT_DIR$/Taxi/src/main/main.iml" filepath="$PROJECT_DIR$/Taxi/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Taxi/build/source/r/r.iml" filepath="$PROJECT_DIR$/Taxi/build/source/r/r.iml" />
     </modules>
   </component>
 </project>

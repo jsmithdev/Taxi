@@ -14,6 +14,7 @@ import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 //import android.content.DialogInterface;
@@ -56,6 +57,28 @@ public class MainActivity extends Activity {
         return true;
 
     }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_about:
+                showAbout();
+                return true;
+            case R.id.action_settings:
+                showSettings();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void showSettings() {
+        //TODO:Setup any needed 'settings' or remove option & layout
+    }
+
+    private void showAbout() {
+        //TODO:Setup 'about' crouton or toast
+    }
+
 }
 
 //setContentView(R.layout.activity_main);
