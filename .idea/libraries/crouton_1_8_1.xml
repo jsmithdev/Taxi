@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="crouton-1.8.1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../libs/crouton-1.8.1.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>
