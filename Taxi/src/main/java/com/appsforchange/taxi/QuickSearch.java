@@ -6,6 +6,6 @@ package com.appsforchange.taxi;
 public class QuickSearch {
 
     public QuickSearch() {
-
+        //TODO:
     }
 }

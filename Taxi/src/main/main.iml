@@ -14,7 +14,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="crouton-1.8.1" level="project" />
-    <orderEntry type="library" name="crouton-1.8.11" level="project" />
   </component>
 </module>
 
